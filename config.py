@@ -439,7 +439,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[0],
             foreground=colors[3],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         widget.Net(
@@ -455,7 +455,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[3],
             foreground=colors[4],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         widget.ThermalSensor(
@@ -470,7 +470,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[4],
             foreground=colors[5],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         widget.CheckUpdates(
@@ -491,7 +491,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[5],
             foreground=colors[6],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         widget.Memory(
@@ -506,7 +506,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[6],
             foreground=colors[7],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         widget.Volume(
@@ -517,7 +517,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[7],
             foreground=colors[8],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         # widget.KeyboardLayout(
@@ -544,7 +544,7 @@ def init_widgets_list():
             font="Ubuntu Mono",
             background=colors[8],
             foreground=colors[9],
-            padding=-6,
+            padding=-1,
             fontsize=37,
         ),
         widget.Clock(
